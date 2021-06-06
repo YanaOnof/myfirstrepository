@@ -7,6 +7,7 @@ setlocale(LC_ALL, "rus");
 int num1, num2;
 input(&num1, &num2);
 cout<<"Числа: "<<num1<<"; "<<num2<<endl;
+cout<<"Сумма введённых чисел: "<<num1+num2<<endl;
 return 0;
 }
 void input(int *a, int *b)
