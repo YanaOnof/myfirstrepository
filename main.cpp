@@ -8,6 +8,7 @@ int num1, num2;
 input(&num1, &num2);
 cout<<"×èñëà: "<<num1<<"; "<<num2<<endl;
 cout<<"Ñóììà ââåä¸ííûõ ÷èñåë: "<<num1+num2<<endl;
+cout<<"Ğàçíîñòü ââåä¸ííûõ ÷èñåë: "<<num1-num2<<endl;
 return 0;
 }
 void input(int *a, int *b)
